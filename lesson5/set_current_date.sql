@@ -1,4 +1,4 @@
--- Заполняем created_at updated_at текущими датой и временем.
+-- Р—Р°РїРѕР»РЅСЏРµРј created_at updated_at С‚РµРєСѓС‰РёРјРё РґР°С‚РѕР№ Рё РІСЂРµРјРµРЅРµРј.
 
 CREATE TABLE users1 
 (

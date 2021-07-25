@@ -1,5 +1,5 @@
 
--- Сортировка записей в порядке увеличения значения value. Значение 0 в самом конце
+-- РЎРѕСЂС‚РёСЂРѕРІРєР° Р·Р°РїРёСЃРµР№ РІ РїРѕСЂСЏРґРєРµ СѓРІРµР»РёС‡РµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ value. Р—РЅР°С‡РµРЅРёРµ 0 РІ СЃР°РјРѕРј РєРѕРЅС†Рµ
 
 USE test;
 
@@ -8,7 +8,7 @@ CREATE TABLE storehouses_products
 id SERIAL PRIMARY KEY,
 storehouse_id INT UNSIGNED,
 product_id INT UNSIGNED,
-value INT UNSIGNED COMMENT 'Запас товарной позиции на складе',
+value INT UNSIGNED COMMENT 'Р—Р°РїР°СЃ С‚РѕРІР°СЂРЅРѕР№ РїРѕР·РёС†РёРё РЅР° СЃРєР»Р°РґРµ',
 created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
 updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )

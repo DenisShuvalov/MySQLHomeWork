@@ -1,6 +1,6 @@
 use test;
 
--- Меняем тип данных для created_at и updated_at с VARCHAR на DATETIME
+-- РњРµРЅСЏРµРј С‚РёРї РґР°РЅРЅС‹С… РґР»СЏ created_at Рё updated_at СЃ VARCHAR РЅР° DATETIME
 
 CREATE TABLE users1 
 (
